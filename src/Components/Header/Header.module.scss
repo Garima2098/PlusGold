@@ -1,0 +1,49 @@
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+  font-weight: 200;
+}
+
+.header-container {
+  width: 100%;
+  .sharktank-header-content {
+    padding: 2.5rem 1.5rem 0rem 1.5rem;
+    display: flex;
+    gap: 36rem;
+    .logo {
+      height: 2vh;
+    }
+  }
+  .header-content-left {
+    display: flex;
+    gap: 2rem;
+    cursor: pointer;
+    font-size: 14px;
+    h4 {
+      color: #141414;
+      font-weight: 400;
+    }
+    h4:hover {
+      color: #031780;
+    }
+    .sharktank-header-name {
+      margin-top: -3rem;
+      .sharktankleft {
+      }
+    }
+    .download-app {
+      background-color: #9d002b;
+      padding: 0.4rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      border-radius: 1rem;
+      color: white;
+      height: 4vh;
+      font-weight: 500;
+      margin-top: -0.3rem;
+    }
+  }
+}

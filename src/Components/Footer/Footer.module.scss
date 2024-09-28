@@ -1,0 +1,63 @@
+.footer-conatiner {
+  background-color: #fff4e1;
+
+  .footer-top {
+    display: flex;
+
+    gap: 2rem;
+    .address {
+      width: 50vw;
+      margin-top: 2rem;
+      .addresss {
+        font-size: 0.9rem;
+      }
+      .website {
+        display: flex;
+        height: 1rem;
+        margin-left: 3rem;
+        margin-top: 1rem;
+        gap: 1rem;
+      }
+    }
+    .footer-data {
+      .ull {
+        list-style: none;
+        text-align: left;
+        font-size: 0.8rem;
+        .li-header {
+          font-size: 0.8rem;
+          color: #9d012a;
+        }
+        li {
+          color: #514d47;
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+  .footer-bottom {
+    padding: 2rem;
+    .header1 {
+      text-align: left;
+      font-weight: 500;
+      font-size: 1.2rem;
+      color: #514d47;
+    }
+    .content {
+      text-align: left;
+      font-size: 0.8rem;
+      font-weight: 400;
+      color: black;
+      margin-top: 0.5rem;
+    }
+  }
+  .sharktankseen {
+    background-color: white;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin: 1rem;
+  }
+}
